@@ -7,7 +7,7 @@
   "author": "Google Inc.",
   "dependencies": {
     "@google-cloud/nodejs-repo-tools": "1.4.17",
-    "@google-cloud/pubsub": "0.13.2",
+    "@google-cloud/pubsub": "2.18.4",
     "ava": "0.22.0",
     "jsonwebtoken": "7.4.1",
     "mqtt": "2.15.0",
