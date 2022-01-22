@@ -10,7 +10,7 @@
     "@google-cloud/logging-winston": "^0.11.1",
     "@types/redis": "^2.8.12",
     "@types/redis-rate-limiter": "^1.2.1",
-    "firebase-admin": "^7.3.0",
+    "firebase-admin": "^10.0.2",
     "good-env": "^4.0.0",
     "redis": "^2.8.0",
     "redis-rate-limiter": "^1.2.0",
