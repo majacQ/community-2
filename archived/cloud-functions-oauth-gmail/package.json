@@ -17,7 +17,7 @@
     "test": "ava -T 20s --verbose test/*.test.js"
   },
   "dependencies": {
-    "@google-cloud/debug-agent": "^2.3.0",
+    "@google-cloud/debug-agent": "^3.0.1",
     "googleapis": "^59.0.0",
     "supertest": "^3.0.0"
   },
