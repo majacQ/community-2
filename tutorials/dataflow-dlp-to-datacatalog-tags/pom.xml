@@ -79,7 +79,7 @@
     <autovalue.annotations.version>1.6</autovalue.annotations.version>
     <autovalue.version>1.6.2</autovalue.version>
     <truth.version>1.0</truth.version>
-    <dlp.version>0.79.0-beta</dlp.version>
+    <dlp.version>1.0.0</dlp.version>
   </properties>
 
   <dependencies>
@@ -367,8 +367,7 @@
                   </filter>
                 </filters>
                 <transformers>
-                  <transformer
-                          implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
