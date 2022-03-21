@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@google-cloud/dlp": "^1.9",
-    "@google-cloud/kms": "^1.6",
+    "@google-cloud/kms": "^2.0.0",
     "config": "^3.2",
     "express": "^4.17",
-    "google-auth-library": "^5.7",
-    "googleapis": "^46"
+    "google-auth-library": "^6.0.0",
+    "googleapis": "^49.0.0"
   }
 }
