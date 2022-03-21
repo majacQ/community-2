@@ -20,9 +20,9 @@
   "dependencies": {
     "@types/cbor": "^2.0.0",
     "cbor": "^4.0.0",
-    "firebase-admin": "^5.12.0",
+    "firebase-admin": "^10.0.2",
     "firebase-functions": "^1.0.2",
-    "@google-cloud/iot": "0.2.1"
+    "@google-cloud/iot": "2.0.0"
   },
   "devDependencies": {
     "gts": "^0.5.4",
