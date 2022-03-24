@@ -7,7 +7,7 @@ RUN go mod download
 COPY . /modbuild
 RUN go build -o /app *.go
 
-FROM alpine:3.10
+FROM alpine:3.14.4
 CMD ["./app"]
 EXPOSE 8080
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
