@@ -10,7 +10,7 @@
 
 
     <properties>
-        <beam.version>2.15.0</beam.version>
+        <beam.version>2.38.0</beam.version>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
         <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
         <slf4j.version>1.7.25</slf4j.version>
