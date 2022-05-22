@@ -62,7 +62,7 @@
     <protobuf.version>3.11.4</protobuf.version>
     <findbugs.version>3.0.1</findbugs.version>
     <guava.version>28.0-jre</guava.version>
-    <json.version>20160810</json.version>
+    <json.version>20180130</json.version>
     <junit.jupiter.version>5.5.2</junit.jupiter.version>
     <gson.version>2.7</gson.version>
     <jackson.version>2.8.8</jackson.version>
@@ -367,8 +367,7 @@
                   </filter>
                 </filters>
                 <transformers>
-                  <transformer
-                          implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
