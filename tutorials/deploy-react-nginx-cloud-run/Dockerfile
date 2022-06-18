@@ -6,7 +6,7 @@ RUN yarn
 RUN yarn build
 
 # server environment
-FROM nginx:alpine
+FROM nginx:1.20-alpine
 COPY nginx.conf /etc/nginx/conf.d/configfile.template
 ENV PORT 8080
 ENV HOST 0.0.0.0
