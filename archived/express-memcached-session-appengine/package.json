@@ -10,7 +10,7 @@
     "cookie-parser": "1.4.3",
     "express": "4.14.1",
     "express-session": "1.15.0",
-    "public-ip": "2.1.0"
+    "public-ip": "5.0.0"
   },
   "devDependencies": {
     "mocha": "3.2.0",
