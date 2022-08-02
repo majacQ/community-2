@@ -75,7 +75,7 @@
         <dependency>
             <groupId>org.apache.avro</groupId>
             <artifactId>avro</artifactId>
-            <version>1.9.0</version>
+            <version>1.11.1</version>
         </dependency>
 
         <dependency>
@@ -99,7 +99,7 @@
         <dependency>
             <groupId>com.google.apis</groupId>
             <artifactId>google-api-services-datacatalog</artifactId>
-            <version>v1beta1-rev10-1.25.0</version>
+            <version>v1beta1-rev20220505-2.0.0</version>
         </dependency>
 
         <dependency>
