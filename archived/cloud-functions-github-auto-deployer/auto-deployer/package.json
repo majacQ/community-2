@@ -12,10 +12,14 @@
     "download-git-repo": "1.0.1",
     "googleapis": "39.1.0",
     "randomstring": "1.1.5",
-    "zip-folder": "1.0.0"
+    "zip-folder": "1.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
 
