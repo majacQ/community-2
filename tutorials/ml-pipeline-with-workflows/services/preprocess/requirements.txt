@@ -3,3 +3,4 @@ apache_beam
 google_apitools
 google-api-python-client
 gunicorn
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
