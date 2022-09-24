@@ -1,3 +1,4 @@
 rfc3339
 construct
 google-cloud-bigquery
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
