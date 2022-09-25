@@ -7,3 +7,4 @@ google-cloud-core
 google-cloud-pubsub
 google-cloud-storage
 google-api-python-client
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
