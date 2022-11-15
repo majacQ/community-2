@@ -3,3 +3,4 @@ google_apitools
 google-api-python-client
 gunicorn
 six>=1.13.0,<2dev
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
