@@ -6,7 +6,7 @@
   "dependencies": {
     "@types/cbor": "^2.0.0",
     "cbor": "^4.0.0",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "mqtt": "^2.15.1",
     "rxjs": "^5.5.10"
   },
