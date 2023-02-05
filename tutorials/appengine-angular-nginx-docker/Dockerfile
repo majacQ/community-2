@@ -1,6 +1,6 @@
 # The standard nginx container just runs nginx. The configuration file added
 # below will be used by nginx.
-FROM nginx
+FROM nginx:1.23
 
 # Copy the nginx configuration file. This sets up the behavior of nginx. Most
 # important, it ensures nginx listens on port 8080. Google App Engine expects
