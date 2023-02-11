@@ -14,7 +14,7 @@
 
 
 # Start with a base Python 3.7.2 image
-FROM python:3.7.2
+FROM python:3.11.2
 
 # Add the external tasks directory into /tasks
 ADD locust-tasks /locust-tasks
