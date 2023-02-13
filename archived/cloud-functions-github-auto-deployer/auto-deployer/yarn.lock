@@ -46,6 +46,11 @@
     string-format-obj "^1.0.0"
     through2 "^2.0.0"
 
+"@snyk/protect@^1.1103.0":
+  version "1.1103.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1103.0.tgz#0e0bb01a83e7f229b1253bd0c2f374f848a290c3"
+  integrity sha512-sBTX/HLAAuRhBXIKTTD67p1YYU01cf+Ht0VLzkHRiMVgaK+bHqfQvKcCYToJo9Z2s/hjouEwCRZk0/P4eClmSg==
+
 abort-controller@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
