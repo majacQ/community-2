@@ -58,7 +58,7 @@
     <joda.version>2.9.7</joda.version>
     <generated-grpc-beta.version>0.19.0</generated-grpc-beta.version>
     <gax.version>1.57.0</gax.version>
-    <protobuf-util.version>3.6.1</protobuf-util.version>
+    <protobuf-util.version>3.22.0</protobuf-util.version>
     <protobuf.version>3.11.4</protobuf.version>
     <findbugs.version>3.0.1</findbugs.version>
     <guava.version>28.0-jre</guava.version>
@@ -367,8 +367,7 @@
                   </filter>
                 </filters>
                 <transformers>
-                  <transformer
-                          implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
