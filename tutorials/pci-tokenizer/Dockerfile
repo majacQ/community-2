@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:17.7.1-slim
 
 # Create the application directory
 RUN mkdir /tokenizer
