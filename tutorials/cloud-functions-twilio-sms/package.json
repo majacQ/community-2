@@ -3,7 +3,7 @@
   "private": true,
   "license": "Apache-2.0",
   "dependencies": {
-    "twilio": "3.0.0"
+    "twilio": "3.16.0"
   },
   "engines": {
     "node": ">=6.9.0"
